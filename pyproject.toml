@@ -1,0 +1,14 @@
+[project]
+name = "smiles-2026-hallucination-detection"
+version = "0.1.0"
+description = "Hallucination detection probe for Qwen2.5-0.5B"
+requires-python = ">=3.14"
+dependencies = [
+    "datasets>=4.8.5",
+    "numpy>=2.4.5",
+    "pandas>=3.0.3",
+    "scikit-learn>=1.8.0",
+    "torch>=2.12.0",
+    "tqdm>=4.67.3",
+    "transformers>=5.8.1",
+]
